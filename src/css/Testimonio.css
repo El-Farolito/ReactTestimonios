@@ -27,7 +27,7 @@
     font-family: sans-serif;
 }
 
-@media (min-width:480px)
+@media (max-height:250px)
 {
     .contenedor-testimonio{
         background-color: white;
