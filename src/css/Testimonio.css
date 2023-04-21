@@ -27,9 +27,36 @@
     font-family: sans-serif;
 }
 
-@media (min-width:780px)
+@media (min-width:480px)
 {
-
+    .contenedor-testimonio{
+        background-color: white;
+        margin: 40px 0;
+        box-shadow: black 0 0px 10px;
+    }
+    .imagen-testimonio{
+        width: 50%;
+    }
+    
+    .contenedor-texto-testimonio{
+        width: 50%;
+        margin: auto;
+        padding: 20px;
+    }
+    .nombre-testimonio{
+        font-size: 1.3rem;
+        font-family: sans-serif;
+        
+    }
+    .cargo-testimonio{
+        font-size: 1.3rem;
+        font-family: sans-serif;
+        margin: 15px 0;
+    }
+    .texto-testimonio{
+        font-size: 1.1rem;
+        font-family: sans-serif;
+    }
 }
 @media (min-width: 1080px){
     .contenedor-testimonio{
