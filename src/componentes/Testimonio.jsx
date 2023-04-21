@@ -4,7 +4,7 @@ import '../css/Testimonio.css'
 function Testimonio() {
   return (
     <div className="contenedor-testimonio">
-      <img src={require("../imagenes/testimonio-emma.png")} alt="" />
+      <img className="imagen-testimonio" src={require("../imagenes/testimonio-emma.png")} alt="" />
 
       <div className="contenedor-texto-testimonio">
 
