@@ -25,21 +25,27 @@
 .texto-testimonio{
     font-size: 1.1rem;
     font-family: sans-serif;
+    
 }
 
-@media ( max-height:600px) and (min-width: 360px)
-{
-    .contenedor-testimonio{
-        background-color: white;
-        margin: 40px 0;
-        box-shadow: black 0 0px 10px;
+@media ( max-height:600px){
+     .contenedor-testimonio{
+        width: 100%;
+    height: 368px;
+    margin: 5px 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 /9%);
+    background-color: white;
     }
     .imagen-testimonio{
-        width: 50%;
+        height: 100%;
+    width: auto;
     }
     
     .contenedor-texto-testimonio{
-        width: 80%;
+        width: 100%;
         margin: auto;
         padding: 20px;
     }
@@ -56,8 +62,11 @@
     .texto-testimonio{
         font-size: 1.1rem;
         font-family: sans-serif;
+        width: 100%;
     }
 }
+   
+
 @media (min-width: 1080px){
     .contenedor-testimonio{
     width: 1170px;
