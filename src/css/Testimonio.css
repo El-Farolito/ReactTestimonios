@@ -27,7 +27,7 @@
     font-family: sans-serif;
 }
 
-@media (max-height:600px)
+@media ( max-height:600px) and (min-width: 360px)
 {
     .contenedor-testimonio{
         background-color: white;
@@ -39,7 +39,7 @@
     }
     
     .contenedor-texto-testimonio{
-        width: 50%;
+        width: 80%;
         margin: auto;
         padding: 20px;
     }
